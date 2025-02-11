@@ -8,21 +8,26 @@
 </head>
 <body>
     <div class="Container">
+        <a href="analyzis.html">
+            <div class="view-analyzis">
+                <h2>View Analyzis</h2>
+            </div>
+        </a>
     <div class="header">
         <h1>Income and Loss Analyzer</h1>
     </div>
-    <div class="form">
-        <form action="index.html" method="post">
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required>
-            <label for="income">Income:</label>
-            <input type="number" id="income" name="income" required>
-            <label for="expences">Expenses:</label>
-            <input type="number" id="expences" name="expences" required>
-            <button type="submit">Submit</button>
-        </form>
+        <div class="form">
+            <form action="index.html" method="post">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="income">Income:</label>
+                <input type="number" id="income" name="income" required>
+                <label for="expences">Expenses:</label>
+                <input type="number" id="expences" name="expences" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="JS/renderer.js"></script>
     </div>
-    <script src="JS/renderer.js"></script>
-</div>
 </body>
 </html>
