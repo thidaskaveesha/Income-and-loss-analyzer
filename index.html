@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Income and Expences analyzer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Income and Expenses Analyzer</title>
 </head>
 <body>
-    <h1>Welcome to My Electron App!</h1>
-    <p>Electron is running successfully.</p>
+    <div class="Container">
+    <div class="header">
+        <h1>Income and Loss Analyzer</h1>
+    </div>
+    <div class="form">
+        <form action="index.html" method="post">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="income">Income:</label>
+            <input type="number" id="income" name="income" required>
+            <label for="expences">Expenses:</label>
+            <input type="number" id="expences" name="expences" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <script src="JS/renderer.js"></script>
+</div>
 </body>
 </html>
